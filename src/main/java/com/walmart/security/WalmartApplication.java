@@ -1,4 +1,4 @@
-package com.walmart.security.Walmart;
+package com.walmart.security;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

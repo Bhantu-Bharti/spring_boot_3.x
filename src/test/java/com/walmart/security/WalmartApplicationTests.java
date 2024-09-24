@@ -1,4 +1,4 @@
-package com.walmart.security.Walmart;
+package com.walmart.security;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

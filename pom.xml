@@ -11,7 +11,7 @@
 	<groupId>com.walmart.security</groupId>
 	<artifactId>Walmart</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Walmart</name>
+	<name>Spring</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
