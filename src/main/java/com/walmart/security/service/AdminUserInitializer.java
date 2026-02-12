@@ -13,11 +13,11 @@ public class AdminUserInitializer {
     public CommandLineRunner createAdminUser(UserDetailsRepository userDetailsRepository, PasswordEncoder passwordEncoder){
         return args -> {
             // Fix: Only create admin user if it does NOT exist
-            if(userDetailsRepository.findByUsername("admin").isEmpty()){
+            if(userDetailsRepository.findByUsername("user1").isEmpty()){
                 Users user = new Users();
-                user.setUsername("admin");
-                user.setPassword(passwordEncoder.encode("admin"));
-                user.setRole("ROLE_ADMIN");
+                user.setUsername("user1");
+                user.setPassword(passwordEncoder.encode("user123"));
+                user.setRole("ROLE_USER");
                 userDetailsRepository.save(user);
                 System.out.println("Successfully user saved.");
             }
